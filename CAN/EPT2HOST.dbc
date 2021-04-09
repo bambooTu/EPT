@@ -1,0 +1,213 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ New_Signal_143 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_142 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_141 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_140 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_139 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 448 TX_0x01C0: 8 Vector__XXX
+ SG_ EPT_Ready : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_Protected : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_EW : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_EN : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_Off : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_Setup_Fault : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_Protected : 15|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_Drive_Mode : 16|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_CHG_Mode : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NA : 18|6@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NA : 24|24@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BCC_CHK1 : 48|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_ID : 56|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LifeCycle : 60|4@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 449 TX_0x01C1: 8 Vector__XXX
+ SG_ ID_Cell_Type_Feedback : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ID_Cell_Parallel_Number_Feedback : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ID_Cell_Series_Number_Feedback : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ID_Cell_Cap_Defined_Feedback : 31|16@0+ (0.01,0) [0|500] "Ah" Vector__XXX
+ SG_ ID_Cell_Cap_Initial_Feedback : 47|16@0+ (0.01,0) [0|500] "Ah" Vector__XXX
+ SG_ BCU_OBU_EW_Protected : 56|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 417 RX_0x01A1: 8 Vector__XXX
+ SG_ ID_Cell_Type : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ID_Cell_Parallel_Number : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ID_Cell_Series_Number : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ID_Cell_Cap_Defined : 31|16@0+ (0.01,0) [0|500] "" Vector__XXX
+ SG_ ID_Cell_Cap_Initial : 47|16@0+ (0.01,0) [0|500] "" Vector__XXX
+ SG_ NA : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 418 RX_0x01A2: 8 Vector__XXX
+ SG_ BP_OBU_Vmax_Limit : 7|16@0+ (0.01,0) [0|500] "" Vector__XXX
+ SG_ BP_OBU_Vmax_Peak : 23|16@0+ (0.01,0) [0|500] "" Vector__XXX
+ SG_ BP_OBU_Vmin_Limit : 39|16@0+ (0.01,0) [0|500] "" Vector__XXX
+ SG_ BP_OBU_Vmin_Peak : 55|16@0+ (0.01,0) [0|500] "" Vector__XXX
+
+BO_ 419 RX_0x01A3: 8 Vector__XXX
+ SG_ HV_Setup_Fault : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_Protected : 15|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BCU_OBU_EW_Protected : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_Off_Enable : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BCU_OBU_Ready : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_Ready2Setup : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_Setup : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_EN : 3|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TBD : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Off_Board_Mode : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_Drive_Enable_Mode : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_CHG_Enable_Mode : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TBD : 10|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EOD_Mode : 12|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EOC_Mode : 13|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_Off_Mode : 14|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_Drive_On : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_L_On : 18|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_Prechg_On : 16|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_Ready_Drive : 19|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_CHG_On : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HV_Ready_CHG : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ NA : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TBD : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NA : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BCC_CHK2 : 48|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_ID : 56|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LifeCycle2 : 60|4@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 420 RX_0x01A4: 8 Vector__XXX
+ SG_ BP_OBU_Current : 7|16@0+ (0.02,-500) [-500|500] "A" Vector__XXX
+ SG_ BP_OBU_Vbatt : 23|16@0+ (0.01,0) [0|500] "V" Vector__XXX
+ SG_ BP_OBU_Vbus : 39|16@0+ (0.01,0) [0|500] "V" Vector__XXX
+ SG_ BCC_CHK3 : 48|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_ID : 56|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LifeCycle3 : 60|4@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 421 RX_0x01A5: 8 Vector__XXX
+ SG_ BP_OBU_SOC : 7|16@0+ (0.1,-50) [-50|150] "%" Vector__XXX
+ SG_ BP_OBU_AH_Stored : 23|16@0+ (0.01,0) [0|500] "Ah" Vector__XXX
+ SG_ BP_OBU_Tbp_Up : 32|8@1+ (0.5,-40) [-40|85] "°C" Vector__XXX
+ SG_ BP_OBU_Tbp_Down : 40|8@1+ (0.5,-40) [-40|85] "°C" Vector__XXX
+ SG_ BP_OBU_Tair_Out : 48|8@1+ (0.5,-40) [-40|85] "°C" Vector__XXX
+ SG_ BP_OBU_Tair_In : 56|8@1+ (0.5,-40) [-40|85] "°C" Vector__XXX
+
+BO_ 422 RX_0x01A6: 8 Vector__XXX
+ SG_ BP_OBU_SOC_Max_CellV : 7|16@0+ (0.001,0) [0|5] "V" Vector__XXX
+ SG_ BP_OBU_SOC_Min_CellV : 23|16@0+ (0.001,0) [0|5] "V" Vector__XXX
+ SG_ BP_OBU_SOC_Max_CellT : 39|16@0+ (0.1,-40) [-40|210] "°C" Vector__XXX
+ SG_ BP_OBU_SOC_Min_CellT : 55|16@0+ (0.1,-40) [-40|210] "°C" Vector__XXX
+
+BO_ 423 RX_0x01A7: 8 Vector__XXX
+ SG_ BP_OBU_Idchg_L10 : 7|16@0+ (0.02,-500) [-500|500] "A" Vector__XXX
+ SG_ BP_OBU_Idchg_LC : 23|16@0+ (0.02,-500) [-500|500] "A" Vector__XXX
+ SG_ BP_OBU_Iregen_L10 : 39|16@0+ (0.02,-500) [-500|500] "A" Vector__XXX
+ SG_ BP_OBU_Iregen_LC : 55|16@0+ (0.02,-500) [-500|500] "A" Vector__XXX
+
+BO_ 424 RX_0x01A8: 8 Vector__XXX
+ SG_ BP_OBU_Ichg_EXP : 7|16@0+ (0.02,-500) [-500|500] "A" Vector__XXX
+ SG_ BP_OBU_Vchg_EXP : 23|16@0+ (0.01,0) [0|500] "V" Vector__XXX
+ SG_ BP_OBU_AH_HMI : 39|16@0+ (0.01,0) [0|500] "V" Vector__XXX
+ SG_ NA_CoolingCtlOP : 48|16@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 429 RX_0x01AD: 8 Vector__XXX
+ SG_ Fault_EPT_CAN_Error : 48|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_Tcell_OT : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_Vbp_High : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_Ichg_High : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_Idchg_High : 3|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_Tbp_High_Temp : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_Tbp_Low_Temp : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_SOC_UnNormal_High : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_SOC_UnNormal_Low : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_Vcell_High : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_SOA_OutOfRange : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_EPT_CMD : 18|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_Cxxx_Open : 20|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_Others : 22|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_Vbp_UV : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_Vcell_Low : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_Tcell_High : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_Tcell_Low : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_UnBalanced_Tcell : 12|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_UnBalanced_Vcell : 13|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_EndOfCharge : 14|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_EndOfDischarge : 15|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_Vbp_OV : 25|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_Ibp_OCC : 26|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_Ibp_ODC : 27|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_Tbp_OT : 28|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_Tbp_UT : 29|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_Vcell_UV : 33|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_Vcell_OV : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_SOC_OutOfRange_High : 31|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_SOC_OutOfRange_Low : 30|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_Tcell_UT : 35|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_UnBalanced_Vcell : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_UnBalanced_Tcell : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_SOA_OutOfRange : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_TBD : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_Cdrive_Open : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_Cchg_Open : 41|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_Caux_Open : 42|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_Csp_Open : 43|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_Impact_Open : 44|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_HV_Leakage : 45|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_Short_Circuit : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_HV_Setup_Fault : 47|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_MMU1_CAN_Error : 49|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_MMU2_CAN_Error : 50|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_EPT_CAN_ID : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_MMU1_CAN_ID : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_MMU2_CAN_ID : 53|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_EPT_CMD : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_TBD : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_BCU_EW1 : 56|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_BCU_EW2 : 57|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_BCU_EW3 : 58|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_BCU_EW4 : 59|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_BCU_EW5 : 60|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_BCU_EW6 : 61|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_BCU_EW7 : 62|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_BCU_EW8 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Warning_Vbp_Low : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+

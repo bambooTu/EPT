@@ -1,0 +1,157 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ TBD : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1504 RemoteDAG_5E0: 8 Vector__XXX
+ SG_ CMU1_Mode : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_EW_Level3_Hbyte : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_EW_Level3_Lbyte : 23|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_FCC : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_RCAP : 47|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_RSOC : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1505 RemoteDAG_5E1: 8 Vector__XXX
+ SG_ CMU1_Ibp : 7|16@0+ (0.02,-500) [0|0] "" Vector__XXX
+ SG_ CMU1_Vbp : 23|16@0+ (0.01,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Vcell_Max : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Vcell_Min : 47|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Tcell_Max : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Tcell_Min : 63|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1506 RemoteDAG_5E2: 8 Vector__XXX
+ SG_ CMU1_Vcell_V01 : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Vcell_V02 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Vcell_V03 : 23|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Vcell_V04 : 31|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Vcell_V05 : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Vcell_V06 : 47|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Vcell_V07 : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Vcell_V08 : 63|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1507 RemoteDAG_5E3: 8 Vector__XXX
+ SG_ CMU1_Vcell_V09 : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Vcell_V10 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Vcell_V11 : 23|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Vcell_V12 : 31|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Vcell_V13 : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Vcell_V14 : 47|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Vcell_V15 : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Vcell_V16 : 63|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1508 RemoteDAG_5E4: 8 Vector__XXX
+ SG_ CMU1_Tcell_T01 : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Tcell_T02 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Tcell_T03 : 23|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Tcell_T04 : 31|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Tcell_T05 : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Tcell_T06 : 47|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Tcell_T07 : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Tcell_T08 : 63|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1509 RemoteDAG_5E5: 8 Vector__XXX
+ SG_ CMU1_Tcell_T09 : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Tcell_T10 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Tcell_T11 : 23|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Tcell_T12 : 31|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Tcell_T13 : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Tcell_T14 : 47|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Tcell_T15 : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU1_Tcell_T16 : 63|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1510 RemoteDAG_5E6: 8 Vector__XXX
+ SG_ CMU2_Mode : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_EW_Level3_Hbyte : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_EW_Level3_Lbyte : 23|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_FCC : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Rcap : 47|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_RSOC : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1511 RemoteDAG_5E7: 8 Vector__XXX
+ SG_ CMU2_Ibp : 7|16@0+ (0.02,-500) [0|0] "" Vector__XXX
+ SG_ CMU2_Vbp : 23|16@0+ (0.01,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Vcell_Max : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Vcell_Min : 47|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Tcell_Max : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Tcell_Min : 63|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1512 RemoteDAG_5E8: 8 Vector__XXX
+ SG_ CMU2_Vcell_V01 : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Vcell_V02 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Vcell_V03 : 23|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Vcell_V04 : 31|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Vcell_V05 : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Vcell_V06 : 47|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Vcell_V07 : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Vcell_V08 : 63|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1513 RemoteDAG_5E9: 8 Vector__XXX
+ SG_ CMU2_Vcell_V09 : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Vcell_V10 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Vcell_V11 : 23|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Vcell_V12 : 31|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Vcell_V13 : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Vcell_V14 : 47|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Vcell_V15 : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Vcell_V16 : 63|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1514 RemoteDAG_5EA: 8 Vector__XXX
+ SG_ CMU2_Tcell_T01 : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Tcell_T02 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Tcell_T03 : 23|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Tcell_T04 : 31|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Tcell_T05 : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Tcell_T06 : 47|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Tcell_T07 : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Tcell_T08 : 63|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1515 RemoteDAG_5EB: 8 Vector__XXX
+ SG_ CMU2_Tcell_T09 : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Tcell_T10 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Tcell_T11 : 23|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Tcell_T12 : 31|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Tcell_T13 : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Tcell_T14 : 47|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Tcell_T15 : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CMU2_Tcell_T16 : 63|8@0+ (1,0) [0|0] "" Vector__XXX
+
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+

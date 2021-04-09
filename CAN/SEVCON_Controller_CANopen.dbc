@@ -1,0 +1,100 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 1793 Status: 1 Vector__XXX
+ SG_ Read_MCU_Status : 0|8@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 544 Read2: 8 Vector__XXX
+ SG_ Read_Actual_Torque : 40|16@1- (0.1,0) [0|0] "" Vector__XXX
+ SG_ Read_Seat_Switch : 58|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Read_Reverse_Switch : 57|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Read_Handbrake_Switch : 59|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Read_Forward_Switch : 56|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Read_Motor_Temp : 8|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Read_Controller_Temp : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Read_Controller_Cap_Voltage : 24|16@1- (0.0625,0) [0|0] "" Vector__XXX
+
+BO_ 545 Read1: 8 Vector__XXX
+ SG_ Read_Motor_Speed : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Read_AC_Motor_Voltage : 0|16@1- (0.0625,0) [0|0] "" Vector__XXX
+ SG_ Read_AC_Motor_Current : 16|16@1- (0.0625,0) [0|0] "" Vector__XXX
+
+BO_ 528 Cmd2: 8 Vector__XXX
+ SG_ Cmd_Throttle_Inlet_voltage : 0|16@1- (0.0039,0) [0|0] "" Vector__XXX
+ SG_ Cmd_Target_Torque : 16|16@1- (0.1,0) [0|0] "" Vector__XXX
+ SG_ Cmd_Maximum_Speed_in_Reverse : 48|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Cmd_Maximum_Speed_in_Forward : 32|16@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 529 Cmd1: 8 Vector__XXX
+ SG_ Cmd_Seat_Switch : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cmd_Reverse_Switch : 33|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cmd_Handbrake_Switch : 35|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cmd_Forward_Switch : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cmd_Battery_Dischg_Current_Limit : 16|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Cmd_Battery_Chg_Current_Limit : 0|16@1- (1,0) [0|0] "" Vector__XXX
+
+
+
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 0;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","not_used","not_used","not_used","not_used","Cyclic","not_used","IfActive","NoMsgSendType";
+BA_DEF_ BU_  "NmStationAddress" HEX 0 0;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
+BA_DEF_DEF_  "GenSigSendType" "Cyclic";
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgSendType" "NoMsgSendType";
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "CANoeStartDelay" 0;
+BA_ "DBName" "SEVCON_Controller_CANopen";
+

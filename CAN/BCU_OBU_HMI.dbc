@@ -1,0 +1,93 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 1523 BP_OBU_Enable_CTLandOP_Status: 8 Vector__XXX
+ SG_ EPT_Status_Bitmap : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Output_Mode : 23|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_OP_Mode : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_HV_CTL_Mode : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Enable_Mode : 47|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Enable_CTL : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1524 BCU_OBU_Output_EW_Code: 8 Vector__XXX
+ SG_ BP_OBU_Warning_G3 : 23|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Warning_G2 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Warning_G1 : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Fault_G5 : 63|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Fault_G4 : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Fault_G3 : 47|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Fault_G2 : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Fault_G1 : 31|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1525 BCU_OBU_Status_OP_G1: 8 Vector__XXX
+ SG_ BP_OBU_Current : 7|16@0+ (0.02,-500) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Vbatt : 23|16@0+ (0.01,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Vbus : 39|16@0+ (0.01,0) [0|0] "" Vector__XXX
+
+BO_ 1526 BCU_OBU_Status_OP_G2: 8 Vector__XXX
+ SG_ BP_OBU_AH_Def : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_AH_FCC : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_AH_Stored : 23|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_SOC : 31|16@0+ (0.1,-50) [0|0] "" Vector__XXX
+ SG_ BP_OBU_SOA : 47|8@0+ (0.5,0) [0|0] "" Vector__XXX
+
+BO_ 1527 BCU_OBU_Status_OP_G3: 8 Vector__XXX
+ SG_ BP_OBU_Tbp_Up : 7|8@0+ (0.5,-40) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Tbp_Down : 15|8@0+ (0.5,-40) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Tair_Out : 23|8@0+ (0.5,-40) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Tair_in : 31|8@0+ (0.5,-40) [0|0] "" Vector__XXX
+ SG_ I2V_Batt_Volt : 39|8@0+ (0.1,0) [0|0] "" Vector__XXX
+ SG_ NA_Cooling_CTL_OP : 47|8@0+ (0.5,0) [0|0] "" Vector__XXX
+
+BO_ 1528 BCU_OBU_Status_OP_G4: 8 Vector__XXX
+ SG_ Max_CellV : 7|16@0+ (0.001,0) [0|0] "" Vector__XXX
+ SG_ Min_CellV : 23|16@0+ (0.001,0) [0|0] "" Vector__XXX
+ SG_ Max_CellT : 39|8@0+ (0.5,-40) [0|0] "" Vector__XXX
+ SG_ Min_CellT : 47|8@0+ (0.5,-40) [0|0] "" Vector__XXX
+
+BO_ 1529 BCU_OBU_OutputCTL: 8 Vector__XXX
+ SG_ BP_OBU_Vmax_Limit : 7|16@0+ (0.01,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_min_Limit : 23|16@0+ (0.01,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Idchg_LC : 39|8@0+ (2,-500) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Iregen_LC : 47|8@0+ (2,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Ichg_EXP : 55|8@0+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BP_OBU_Vchg_EXP : 63|8@0+ (0.5,0) [0|0] "" Vector__XXX
+
+
+
+

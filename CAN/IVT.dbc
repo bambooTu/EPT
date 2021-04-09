@@ -1,0 +1,106 @@
+VERSION "HIPBNYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY/4/%%%/4/'%**4YYY///"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+
+BS_:
+
+BU_:
+
+
+BO_ 1313 IVT_DATA_I: 6 Vector__XXX
+ SG_ Mux_ID : 7|8@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Rolling_Status : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ I_Current : 23|32@0- (0.001,0) [-1000|1000] "A" Vector__XXX
+
+BO_ 1314 IVT_DATA_U1: 6 Vector__XXX
+ SG_ Mux_ID : 7|8@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Rolling_Status : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ U1_Voltage : 23|32@0+ (0.001,0) [-1000|1000] "V" Vector__XXX
+
+BO_ 1315 IVT_DATA_U2: 6 Vector__XXX
+ SG_ Mux_ID : 7|8@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Rolling_Status : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ U2_Voltage : 23|32@0+ (0.001,0) [-1000|1000] "V" Vector__XXX
+
+BO_ 1316 IVT_DATA_U3: 6 Vector__XXX
+ SG_ Mux_ID : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Rolling_Status : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ U3_Voltage : 23|32@0+ (0.001,0) [-1000|1000] "V" Vector__XXX
+
+
+CM_ SG_ 1313 Mux_ID "Channel NO.0~7;ID=0 for I_Current";
+CM_ SG_ 1313 Rolling_Status "bit0~3 RC=0~15
+bit4 set if OCS is true
+bit5 set if
+-this result is out of range
+-this result has reduced precision
+-this result has a measurement error
+bit6 set if
+-any result has a measurement-error
+bit7 set if
+-system-error,sensor functionality is not ensured
+ID Correct + RC OK Data Avaliable
+ID NG or RC NG Data NG";
+CM_ SG_ 1313 I_Current "";
+CM_ SG_ 1314 Mux_ID "Channel NO.0~7;ID=0 for U1";
+CM_ SG_ 1314 Rolling_Status "bit0~3 RC=0~15
+bit4 set if OCS is true
+bit5 set if
+-this result is out of range
+-this result has reduced precision
+-this result has a measurement error
+bit6 set if
+-any result has a measurement-error
+bit7 set if
+-system-error,sensor functionality is not ensured
+ID Correct + RC OK Data Avaliable
+ID NG or RC NG Data NG";
+CM_ SG_ 1314 U1_Voltage "";
+CM_ SG_ 1315 Mux_ID "Channel NO.0~7;ID=0 for U2";
+CM_ SG_ 1315 Rolling_Status "bit0~3 RC=0~15
+bit4 set if OCS is true
+bit5 set if
+-this result is out of range
+-this result has reduced precision
+-this result has a measurement error
+bit6 set if
+-any result has a measurement-error
+bit7 set if
+-system-error,sensor functionality is not ensured
+ID Correct + RC OK Data Avaliable
+ID NG or RC NG Data NG";
+CM_ SG_ 1316 Mux_ID "Channel NO.0~7;ID=0 for U3";
+CM_ SG_ 1316 Rolling_Status "bit0~3 RC=0~15
+bit4 set if OCS is true
+bit5 set if
+-this result is out of range
+-this result has reduced precision
+-this result has a measurement error
+bit6 set if
+-any result has a measurement-error
+bit7 set if
+-system-error,sensor functionality is not ensured
+ID Correct + RC OK Data Avaliable
+ID NG or RC NG Data NG";
+CM_ SG_ 1316 U3_Voltage "";

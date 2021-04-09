@@ -1,0 +1,119 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 2557661284 SWCU_OP_Status_G8_SWUBP3: 8 Vector__XXX
+ SG_ Vcell_min_SWUBP : 56|8@1+ (0.01,2) [0|0] "V" Vector__XXX
+ SG_ Vcell_max_SWUBP : 48|8@1+ (0.01,2) [0|0] "V" Vector__XXX
+ SG_ Vbp_SWUBP : 32|8@1+ (1,0) [0|0] "V" Vector__XXX
+ SG_ Tbp_SWUBP : 40|8@1+ (1,-40) [0|0] "¢J" Vector__XXX
+ SG_ SOC_SWUBP : 16|8@1+ (0.5,-12.5) [0|0] "%" Vector__XXX
+ SG_ Ibp_SWUBP : 24|8@1+ (0.8,-100) [0|0] "A" Vector__XXX
+ SG_ Fcap_SWUBP : 8|8@1+ (0.4,0) [0|0] "Ah" Vector__XXX
+ SG_ Mode_SWUBP : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2557595748 SWCU_OP_Status_G7_SWUBP2: 8 Vector__XXX
+ SG_ Vcell_min_SWUBP : 56|8@1+ (0.01,2) [0|0] "V" Vector__XXX
+ SG_ Vcell_max_SWUBP : 48|8@1+ (0.01,2) [0|0] "V" Vector__XXX
+ SG_ Vbp_SWUBP : 32|8@1+ (1,0) [0|0] "V" Vector__XXX
+ SG_ Tbp_SWUBP : 40|8@1+ (1,-40) [0|0] "¢J" Vector__XXX
+ SG_ SOC_SWUBP : 16|8@1+ (0.5,-12.5) [0|0] "%" Vector__XXX
+ SG_ Ibp_SWUBP : 24|8@1+ (0.8,-100) [0|0] "A" Vector__XXX
+ SG_ Fcap_SWUBP : 8|8@1+ (0.4,0) [0|0] "Ah" Vector__XXX
+ SG_ Mode_SWUBP : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2557530212 SWCU_OP_Status_G6_SWUBP1: 8 Vector__XXX
+ SG_ Vcell_min_SWUBP : 56|8@1+ (0.01,2) [0|0] "V" Vector__XXX
+ SG_ Vcell_max_SWUBP : 48|8@1+ (0.01,2) [0|0] "V" Vector__XXX
+ SG_ Vbp_SWUBP : 32|8@1+ (1,0) [0|0] "V" Vector__XXX
+ SG_ Tbp_SWUBP : 40|8@1+ (1,-40) [0|0] "¢J" Vector__XXX
+ SG_ SOC_SWUBP : 16|8@1+ (0.5,-12.5) [0|0] "%" Vector__XXX
+ SG_ Ibp_SWUBP : 24|8@1+ (0.8,-100) [0|0] "A" Vector__XXX
+ SG_ Fcap_SWUBP : 8|8@1+ (0.4,0) [0|0] "Ah" Vector__XXX
+ SG_ Mode_SWUBP : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2556481892 SWCU_OP_Status_G4_PWCU2: 8 Vector__XXX
+ SG_ Vo_pwcu : 32|16@1+ (0.01,0) [0|0] "V" Vector__XXX
+ SG_ T_pwcu : 8|8@1+ (1,-40) [0|0] "¢J" Vector__XXX
+ SG_ Mode_PWCU : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Io_pwcu : 16|16@1+ (0.01,0) [0|0] "A" Vector__XXX
+ SG_ EW_Code_PWCU : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2556612708 SWCU_OP_Status_G5_PWCU3: 8 Vector__XXX
+ SG_ Vo_pwcu : 32|16@1+ (0.01,0) [0|0] "V" Vector__XXX
+ SG_ T_pwcu : 8|8@1+ (1,-40) [0|0] "¢J" Vector__XXX
+ SG_ Mode_PWCU : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Io_pwcu : 16|16@1+ (0.01,0) [0|0] "A" Vector__XXX
+ SG_ EW_Code_PWCU : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2556481636 SWCU_OP_Status_G3_PWCU1: 8 Vector__XXX
+ SG_ Vo_pwcu : 32|16@1+ (0.01,0) [0|0] "V" Vector__XXX
+ SG_ T_pwcu : 8|8@1+ (1,-40) [0|0] "¢J" Vector__XXX
+ SG_ Mode_PWCU : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Io_pwcu : 16|16@1+ (0.01,0) [0|0] "A" Vector__XXX
+ SG_ EW_Code_PWCU : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2550162640 EPT_to_SWCU_Enable_Control: 8 Vector__XXX
+ SG_ SWUBP_Swap_Level : 40|8@1+ (0.5,0) [0|0] "%" Vector__XXX
+ SG_ SWCU_PW_CTL : 24|16@1+ (0.1,0) [0|0] "A" Vector__XXX
+ SG_ SWCU_Output_Mode : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ SWCU_Enable_CTL : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Rolling_Count : 56|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ID : 60|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_Status_Bitmap : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BCC_Check : 48|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2555498596 SWCU_OP_Status_G2: 8 Vector__XXX
+ SG_ SWCU_Vpwcu : 0|16@1+ (0.01,0) [0|0] "V" Vector__XXX
+ SG_ SWCU_Tpwcu : 32|8@1+ (1,-40) [0|0] "¢J" Vector__XXX
+ SG_ SWCU_Tswubp : 40|8@1+ (1,-40) [0|0] "¢J" Vector__XXX
+ SG_ SWCU_Ipwcu : 16|16@1+ (0.01,0) [0|0] "A" Vector__XXX
+ SG_ SWCU_EW_Code : 48|16@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2555433060 SWCU_OP_Status_G1: 8 Vector__XXX
+ SG_ SWCU_SOC : 24|8@1+ (1,0) [0|0] "%" Vector__XXX
+ SG_ SWCU_Mode : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ SWCU_Imax : 32|8@1+ (1,0) [0|0] "A" Vector__XXX
+ SG_ SWCU_FCC : 8|16@1+ (1,0) [0|0] "Ah" Vector__XXX
+ SG_ SWCU_Auxiliary_PW : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Rolling_Count : 56|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ID : 60|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BCC_Check : 48|8@1+ (1,0) [0|0] "" Vector__XXX
+
+
+
+

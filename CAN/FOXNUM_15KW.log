@@ -1,0 +1,29 @@
+Conversion Warnings Log
+
+
+MSG_ID: 134279120 	MSG_TYPE: X 	MSG_NAME: TX_0x0800EFD0
+	SIG_NAME: MotorEN, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ModeSignal, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: MotionSignal, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: GearSignal, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: PW_State, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DischargeEN, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Reserve, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Reserve, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 134283247 	MSG_TYPE: X 	MSG_NAME: RX_0x0800FFEF
+	SIG_NAME: InitFinishFlag, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: AllowDrive, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: PWM_State, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: DischargeState, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Reserve, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: LifeCycle, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 134348783 	MSG_TYPE: X 	MSG_NAME: RX_0x0801FFEF
+	SIG_NAME: MotorTemp, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: ControllerTemp, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: AlarmLevel, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: Reserve, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 134414319 	MSG_TYPE: X 	MSG_NAME: RX_0x0802FFEF
+	SIG_NAME: Reserve, STATUS: Invalid Max or Min value., ACTION: Value Set to default
