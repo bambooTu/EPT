@@ -36,11 +36,30 @@ BS_:
 BU_:
 
 
-BO_ 37 MCU_EW_Code: 8 Vector__XXX
- SG_ MCU_Alarm_Level : 0|8@1+ (1,0) [0|0] "" Vector__XXX
- SG_ MCU_Alarm_Code : 8|16@1+ (1,0) [0|0] "" Vector__XXX
+BO_ 2555641844 Display_Info_G4_ESS_BPSWU: 8 Vector__XXX
+ SG_ EPT_PWCU_TEMP : 24|8@1+ (1,-40) [0|0] "¢XC" Vector__XXX
+ SG_ EPT_PWCU_OUT_PWR : 32|8@1+ (0.1,0) [0|0] "Kw" Vector__XXX
+ SG_ EPT_PWCU_FAULT : 48|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU_SWAP_RMND : 44|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU_STA : 40|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU_SOC : 16|8@1+ (0.5,0) [0|0] "%" Vector__XXX
+ SG_ EPT_BPSWU_NUM : 0|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU_FCAP : 8|8@1+ (0.4,0) [0|0] "%" Vector__XXX
 
-BO_ 36 BP_EW_Code: 8 Vector__XXX
+BO_ 2555510772 Display_Info_G2_ESS_BPOBU: 8 Vector__XXX
+ SG_ EPT_INSULATION_FAILURE : 41|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_DISCONNECT : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_CHG_STA : 36|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_CHG_CABLE_CONN : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_VOLT : 0|8@1+ (0.5,0) [0|0] "V" Vector__XXX
+ SG_ EPT_BPOBU_TEMP : 24|8@1+ (1,-40) [0|0] "¢J" Vector__XXX
+ SG_ EPT_BPOBU_SOC_LOW : 42|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_SOC : 16|8@1+ (0.5,0) [0|0] "%" Vector__XXX
+ SG_ EPT_BPOBU_OVERTEMP : 43|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_FCAP : 8|8@1+ (0.4,0) [0|0] "%" Vector__XXX
+ SG_ EPT_BPOBU_FAULT : 44|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2552299508 Remote_DA_Status_G20_ESS_OBU_1: 8 Vector__XXX
  SG_ BP_OBU_Warning_G3 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
  SG_ BP_OBU_Warning_G2 : 8|8@1+ (1,0) [0|0] "" Vector__XXX
  SG_ BP_OBU_Warning_G1 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
@@ -50,27 +69,34 @@ BO_ 36 BP_EW_Code: 8 Vector__XXX
  SG_ BP_OBU_Fault_G2 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
  SG_ BP_OBU_Fault_G1 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
 
-BO_ 34 ECHS2EPT: 8 Vector__XXX
- SG_ CMD_Regen : 7|1@1+ (1,0) [0|0] "" Vector__XXX
- SG_ CMD_Tq : 8|16@1+ (0.1,0) [0|150] "Nm" Vector__XXX
- SG_ CMD_Speed : 24|16@1+ (1,0) [0|6000] "rpm" Vector__XXX
- SG_ Gear_Signal : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+BO_ 2349921488 ECHS_CMD: 8 Vector__XXX
+ SG_ ECHS_VEH_MODE_REQ : 1|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ECHS_REG_MODE_REQ : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ECHS_TRQ_CMD : 8|16@1+ (0.1,0) [0|150] "Nm" Vector__XXX
+ SG_ ECHS_SPD_CMD : 24|16@1+ (1,0) [0|6000] "rpm" Vector__XXX
+ SG_ ECHS_GEAR_CMD : 40|8@1+ (1,0) [0|0] "" Vector__XXX
  SG_ ECHS_Status : 0|1@1+ (1,0) [0|0] "" Vector__XXX
- SG_ Mode_Status : 1|2@1+ (1,0) [0|0] "" Vector__XXX
- SG_ ECHS_EW : 3|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ECHS_ERROR : 3|2@1+ (1,0) [0|0] "" Vector__XXX
 
-BO_ 33 EPT2ECHS: 8 Vector__XXX
- SG_ Max_RegenTq : 24|16@1+ (0.1,0) [0|150] "Nm" Vector__XXX
- SG_ RPM : 40|16@1- (1,0) [-15000|15000] "rpm" Vector__XXX
- SG_ EPT_Status : 0|1@1+ (1,0) [0|0] "" Vector__XXX
- SG_ Mode_EN : 1|2@1+ (1,0) [0|0] "" Vector__XXX
- SG_ EPT_EW : 3|2@1+ (1,0) [0|0] "" Vector__XXX
- SG_ Max_Tq : 8|16@1+ (0.1,0) [0|150] "Nm" Vector__XXX
+BO_ 2349912308 EPT_Feedback_Status: 8 Vector__XXX
+ SG_ EPT_BPOBU_STA : 5|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_GEAR_STA : 56|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_CONSUMED_WH : 24|16@1+ (1,0) [0|0] "WH" Vector__XXX
+ SG_ EPT_MAX_REG_TRQ : 16|8@1+ (1,0) [0|150] "Nm" Vector__XXX
+ SG_ EPT_MOTOR_SPD : 40|16@1- (1,0) [-15000|15000] "rpm" Vector__XXX
+ SG_ EPT_STATUS : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_VEH_MODE_STA : 1|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_ERROR : 3|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_MAX_DRV_TRQ : 8|8@1+ (1,0) [0|150] "Nm" Vector__XXX
 
-BO_ 35 HMI_Data: 8 Vector__XXX
- SG_ MCU_Temp : 32|16@1- (0.1,-40) [0|100] "¢J" Vector__XXX
- SG_ Motor_Temp : 16|16@1+ (0.1,-40) [0|100] "¢J" Vector__XXX
- SG_ RSoC : 48|16@1+ (0.1,-50) [0|150] "Ah" Vector__XXX
+BO_ 2555576308 Display_Info_G3_Motor_MCU: 8 Vector__XXX
+ SG_ EPT_MOTOR_OVERTEMP : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_MOTOR_FAULT : 42|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_MCU_OVERTEMP : 41|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_MOTOR_TRQ : 16|8@1+ (0.4,0) [0|0] "%" Vector__XXX
+ SG_ EPT_MOTOR_SPD : 0|16@1+ (1,0) [0|8000] "rpm" Vector__XXX
+ SG_ EPT_MCU_TEMP : 32|8@1+ (1,-40) [0|100] "¢J" Vector__XXX
+ SG_ EPT_MOTOR_TEMP : 24|8@1+ (1,-40) [0|100] "¢J" Vector__XXX
 
 
 
