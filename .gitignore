@@ -1,3 +1,6 @@
+*_raptor_rtw
+*.r201*
+
 # Windows default autosave extension
 *.asv
 
@@ -28,10 +31,11 @@ codegen/
 *.slxc
 
 # Octave session info
-<<<<<<< HEAD
 octave-workspace
 *log.txt
+*.log
 *.original
+*.ini
 
 
 

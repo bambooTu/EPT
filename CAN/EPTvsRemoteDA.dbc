@@ -1,0 +1,300 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 2552299508 Remote_DA_Status_G20: 8 Vector__XXX
+ SG_ EPT_BPOBU_EG5_BIT7 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG5_BIT6 : 62|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG5_BIT5 : 61|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG5_BIT4 : 60|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG5_BIT3 : 59|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG5_BIT2 : 58|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG5_BIT1 : 57|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG5_BIT0 : 56|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG4_BIT7 : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG4_BIT6 : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG4_BIT5 : 53|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG4_BIT4 : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG4_BIT3 : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG4_BIT2 : 50|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG4_BIT1 : 49|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG4_BIT0 : 48|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG3_BIT7 : 47|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG3_BIT6 : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG3_BIT5 : 45|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG3_BIT4 : 44|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG3_BIT3 : 43|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG3_BIT2 : 42|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG3_BIT1 : 41|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG3_BIT0 : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG2_BIT7 : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG2_BIT6 : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG2_BIT5 : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG2_BIT4 : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG2_BIT3 : 35|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG2_BIT2 : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG2_BIT1 : 33|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG2_BIT0 : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG1_BIT7 : 31|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG1_BIT6 : 30|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG1_BIT5 : 29|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG1_BIT4 : 28|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG1_BIT3 : 27|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG1_BIT2 : 26|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG1_BIT1 : 25|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_EG1_BIT0 : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG3_BIT7 : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG3_BIT6 : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG3_BIT5 : 21|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG3_BIT4 : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG3_BIT3 : 19|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG3_BIT2 : 18|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG3_BIT1 : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG3_BIT0 : 16|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG2_BIT7 : 15|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG2_BIT6 : 14|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG2_BIT5 : 13|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG2_BIT4 : 12|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG2_BIT3 : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG2_BIT2 : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG2_BIT1 : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG2_BIT0 : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG1_BIT7 : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG1_BIT6 : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG1_BIT5 : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG1_BIT4 : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG1_BIT3 : 3|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG1_BIT2 : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG1_BIT1 : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_WG1_BIT0 : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2551513076 Remote_DA_Status_G14: 8 Vector__XXX
+ SG_ EPT_MCU_FAULT_ID : 48|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_MCU_FAULT_CAUSE : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_MCU_FAULT_LEVEL : 32|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_MCU_TEMP_DUP : 8|8@1+ (1,-40) [-40|210] "degC" Vector__XXX
+ SG_ EPT_MOTOR_TEMP_DUP : 0|8@1+ (1,-40) [-40|210] "degC" Vector__XXX
+
+BO_ 2551443188 Remote_DA_Status_G13: 8 Vector__XXX
+ SG_ EPT_MCU_RMS_CURR : 40|16@1+ (1,-1000) [-1000|1000] "A" Vector__XXX
+ SG_ EPT_MCU_DC_VOLT : 32|8@1+ (0.4,0) [0|100] "%(Max_Vbatt)" Vector__XXX
+ SG_ EPT_MOTOR_SPD_DUP : 16|16@1+ (1,-12000) [-12000|12000] "rpm" Vector__XXX
+ SG_ EPT_TRQ_CMD_DUP : 8|8@1+ (0.4,0) [0|100] "pct" Vector__XXX
+ SG_ EPT_GEAR_STA_DUP : 4|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_VEH_MODE_STA_DUP : 0|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2553540340 Remote_DA_Status_G33: 8 Vector__XXX
+ SG_ EPT_BPSWU3_VOLT : 32|8@1+ (0.4,0) [0|100] "pct (Max_Vbatt)" Vector__XXX
+ SG_ EPT_BPSWU3_VCELL_MIN : 56|8@1+ (0.01,2) [2|4.5] "Volt" Vector__XXX
+ SG_ EPT_BPSWU3_VCELL_MAX : 48|8@1+ (0.01,2) [2|4.5] "Volt" Vector__XXX
+ SG_ EPT_BPSWU3_TEMP : 40|8@1+ (1,-40) [-40|210] "degC" Vector__XXX
+ SG_ EPT_BPSWU3_RSOC : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU3_READY : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU3_HV_ENABLED : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU3_FCCAP : 8|8@1+ (0.4,0) [0|100] "pct (Max_Ah)" Vector__XXX
+ SG_ EPT_BPSWU3_EW_CODE : 3|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU3_EW : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU3_CURR : 24|8@1+ (0.8,-100) [-100|100] "pct (Max Ibatt)" Vector__XXX
+
+BO_ 2553474804 Remote_DA_Status_G32: 8 Vector__XXX
+ SG_ EPT_BPSWU2_VOLT : 32|8@1+ (0.4,0) [0|100] "pct (Max_Vbatt)" Vector__XXX
+ SG_ EPT_BPSWU2_VCELL_MIN : 56|8@1+ (0.01,2) [2|4.5] "Volt" Vector__XXX
+ SG_ EPT_BPSWU2_VCELL_MAX : 48|8@1+ (0.01,2) [2|4.5] "Volt" Vector__XXX
+ SG_ EPT_BPSWU2_TEMP : 40|8@1+ (1,-40) [-40|210] "degC" Vector__XXX
+ SG_ EPT_BPSWU2_RSOC : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU2_READY : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU2_HV_ENABLED : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU2_FCCAP : 8|8@1+ (0.4,0) [0|100] "pct (Max_Ah)" Vector__XXX
+ SG_ EPT_BPSWU2_EW_CODE : 3|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU2_EW : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU2_CURR : 24|8@1+ (0.8,-100) [-100|100] "pct (Max Ibatt)" Vector__XXX
+
+BO_ 2553343732 Remote_DA_Status_G30: 8 Vector__XXX
+ SG_ EPT_BPSWU_TEMP : 32|8@1+ (1,-40) [-40|210] "degC" Vector__XXX
+ SG_ EPT_BPSWU_RSOC : 24|8@1+ (0.5,-12.5) [-12.5|112.5] "pct" Vector__XXX
+ SG_ EPT_BPSWU_FCCAP : 16|8@1+ (0.4,0) [0|100] "pct (Max_Ah)" Vector__XXX
+ SG_ EPT_SWCU_EW_CODE : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_PWCU_TEMP : 56|8@1+ (1,-40) [-40|210] "degC" Vector__XXX
+ SG_ EPT_PWCU_CURR_MAX : 40|8@1+ (0.4,0) [0|100] "% (Imax)" Vector__XXX
+ SG_ EPT_PWCU_CURR : 48|8@1+ (0.4,0) [0|100] "% (Imax)" Vector__XXX
+ SG_ EPT_BPSWU_INSTALL_NUM : 5|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_SWCU_READY : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_SWCU_HV_ENABLED : 3|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_SWAP_REQ : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_PWCU_READY : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU_READY : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2553409268 Remote_DA_Status_G31: 8 Vector__XXX
+ SG_ EPT_BPSWU1_VOLT : 32|8@1+ (0.4,0) [0|100] "pct (Max_Vbatt)" Vector__XXX
+ SG_ EPT_BPSWU1_VCELL_MIN : 56|8@1+ (0.01,2) [2|4.5] "Volt" Vector__XXX
+ SG_ EPT_BPSWU1_VCELL_MAX : 48|8@1+ (0.01,2) [2|4.5] "Volt" Vector__XXX
+ SG_ EPT_BPSWU1_TEMP : 40|8@1+ (1,-40) [-40|210] "degC" Vector__XXX
+ SG_ EPT_BPSWU1_RSOC : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU1_FCCAP : 8|8@1+ (0.4,0) [0|100] "pct (Max_Ah)" Vector__XXX
+ SG_ EPT_BPSWU1_CURR : 24|8@1+ (0.8,-100) [-100|100] "pct (Max Ibatt)" Vector__XXX
+ SG_ EPT_BPSWU1_EW_CODE : 3|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU1_READY : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU1_HV_ENABLED : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPSWU1_EW : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2552491764 Remote_DA_Status_G23: 8 Vector__XXX
+ SG_ EPT_OBC_VOUT_CMD : 16|8@1+ (0.4,0) [0|100] "%(Max_Vbatt)" Vector__XXX
+ SG_ EPT_OBC_VOLT : 40|8@1+ (0.4,0) [0|100] "%(Max_Vchger)" Vector__XXX
+ SG_ EPT_OBC_TEMP : 48|8@1+ (1,-40) [-40|210] "degC" Vector__XXX
+ SG_ EPT_OBC_STOP_CTRL : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_OBC_STA : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_OBC_IOUT_CMD : 8|8@1+ (0.4,0) [0|100] "%(Max Ichger)" Vector__XXX
+ SG_ EPT_OBC_EW_CODE : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_OBC_CURR : 32|8@1+ (0.4,0) [0|100] "%(Max Ichger)" Vector__XXX
+
+BO_ 2552426228 Remote_DA_Status_G22: 8 Vector__XXX
+ SG_ EPT_BPOBU_VCELL_MIN_NUM : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_VCELL_MIN : 16|8@1+ (0.01,2) [2|4.5] "V" Vector__XXX
+ SG_ EPT_BPOBU_VCELL_MAX_NUM : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_VCELL_MAX : 0|8@1+ (0.01,2) [2|4.5] "V" Vector__XXX
+ SG_ EPT_BPOBU_TCELL_MIN_NUM : 56|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_TCELL_MIN : 24|8@1+ (1,-40) [-40|210] "" Vector__XXX
+ SG_ EPT_BPOBU_TCELL_MAX_NUM : 48|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EPT_BPOBU_TCELL_MAX : 8|8@1+ (1,-40) [-40|210] "degC" Vector__XXX
+
+BO_ 2552360692 Remote_DA_Status_G21: 7 Vector__XXX
+ SG_ EPT_HV_BUS_VOLT : 8|8@1+ (0.4,0) [0|100] "%(Max_Vbatt)" Vector__XXX
+ SG_ EPT_BPOBU_SOC_DUP : 32|8@1+ (0.5,-12.5) [-12.5|112.5] "%" Vector__XXX
+ SG_ EPT_BPOBU_RCAP : 48|8@1+ (0.5,-12.5) [-12.5|112.5] "%(Max Ah)" Vector__XXX
+ SG_ EPT_BPOBU_FCCAP_DUP : 40|8@1+ (0.4,0) [0|100] "%(Max Ah)" Vector__XXX
+ SG_ EPT_BPOBU_CURR : 16|16@1+ (0.05,-800) [-800|800] "A" Vector__XXX
+ SG_ EPT_BPOBU_VOLT_DUP : 0|8@1+ (0.4,0) [0|100] "%(Max_Vbatt)" Vector__XXX
+
+
+
+BA_DEF_ BO_  "TpJ1939VarDlc" ENUM  "No","Yes";
+BA_DEF_ SG_  "SigType" ENUM  "Default","Range","RangeSigned","ASCII","Discrete","Control","ReferencePGN","DTC","StringDelimiter","StringLength","StringLengthControl","MessageCounter","MessageChecksum";
+BA_DEF_ SG_  "GenSigEVName" STRING ;
+BA_DEF_ SG_  "GenSigILSupport" ENUM  "No","Yes";
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ BO_  "GenMsgFastOnStart" INT 0 100000;
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 0;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 3600000;
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 1000000;
+BA_DEF_ SG_  "GenSigStartValue" INT 0 2147483647;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 1000;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 100000;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "NmJ1939SystemInstance" INT 0 15;
+BA_DEF_ BU_  "NmJ1939System" INT 0 127;
+BA_DEF_ BU_  "NmJ1939ManufacturerCode" INT 0 2047;
+BA_DEF_ BU_  "NmJ1939IndustryGroup" INT 0 7;
+BA_DEF_ BU_  "NmJ1939IdentityNumber" INT 0 2097151;
+BA_DEF_ BU_  "NmJ1939FunctionInstance" INT 0 7;
+BA_DEF_ BU_  "NmJ1939Function" INT 0 255;
+BA_DEF_ BU_  "NmJ1939ECUInstance" INT 0 3;
+BA_DEF_ BU_  "NmJ1939AAC" INT 0 1;
+BA_DEF_ BU_  "NmStationAddress" INT 0 255;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "cyclic","NotUsed","IfActive","NotUsed","NotUsed","NotUsed","NotUsed","NotUsed","noMsgSendType";
+BA_DEF_ BO_  "GenMsgRequestable" INT 0 1;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 3600000;
+BA_DEF_ SG_  "SPN" INT 0 524287;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "ProtocolType" STRING ;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","J1939PG";
+BA_DEF_DEF_  "TpJ1939VarDlc" "No";
+BA_DEF_DEF_  "SigType" "Default";
+BA_DEF_DEF_  "GenSigEVName" "Env@Nodename_@Signame";
+BA_DEF_DEF_  "GenSigILSupport" "Yes";
+BA_DEF_DEF_  "GenSigSendType" "NoSigSendType";
+BA_DEF_DEF_  "GenMsgFastOnStart" 0;
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "Yes";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "NmJ1939SystemInstance" 0;
+BA_DEF_DEF_  "NmJ1939System" 0;
+BA_DEF_DEF_  "NmJ1939ManufacturerCode" 0;
+BA_DEF_DEF_  "NmJ1939IndustryGroup" 0;
+BA_DEF_DEF_  "NmJ1939IdentityNumber" 0;
+BA_DEF_DEF_  "NmJ1939FunctionInstance" 0;
+BA_DEF_DEF_  "NmJ1939Function" 0;
+BA_DEF_DEF_  "NmJ1939ECUInstance" 0;
+BA_DEF_DEF_  "NmJ1939AAC" 0;
+BA_DEF_DEF_  "NmStationAddress" 254;
+BA_DEF_DEF_  "GenMsgSendType" "noMsgSendType";
+BA_DEF_DEF_  "GenMsgRequestable" 1;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "SPN" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "ProtocolType" "J1939";
+BA_DEF_DEF_  "VFrameFormat" "J1939PG";
+BA_ "DBName" "EPTvsRemoteDA";
+BA_ "VFrameFormat" BO_ 2552299508 1;
+BA_ "VFrameFormat" BO_ 2551513076 1;
+BA_ "VFrameFormat" BO_ 2551443188 1;
+BA_ "VFrameFormat" BO_ 2553540340 1;
+BA_ "VFrameFormat" BO_ 2553474804 1;
+BA_ "VFrameFormat" BO_ 2553343732 1;
+BA_ "VFrameFormat" BO_ 2553409268 1;
+BA_ "VFrameFormat" BO_ 2552491764 1;
+BA_ "VFrameFormat" BO_ 2552426228 1;
+BA_ "VFrameFormat" BO_ 2552360692 1;
+BA_ "GenSigStartValue" SG_ 2551513076 EPT_MCU_TEMP_DUP 40;
+BA_ "GenSigStartValue" SG_ 2551513076 EPT_MOTOR_TEMP_DUP 40;
+BA_ "GenSigStartValue" SG_ 2551443188 EPT_MCU_RMS_CURR 1000;
+BA_ "GenSigStartValue" SG_ 2551443188 EPT_MOTOR_SPD_DUP 12000;
+BA_ "GenSigStartValue" SG_ 2553540340 EPT_BPSWU3_TEMP 40;
+BA_ "GenSigStartValue" SG_ 2553540340 EPT_BPSWU3_CURR 125;
+BA_ "GenSigStartValue" SG_ 2553474804 EPT_BPSWU2_TEMP 40;
+BA_ "GenSigStartValue" SG_ 2553474804 EPT_BPSWU2_CURR 125;
+BA_ "GenSigStartValue" SG_ 2553343732 EPT_BPSWU_TEMP 40;
+BA_ "GenSigStartValue" SG_ 2553343732 EPT_BPSWU_RSOC 25;
+BA_ "GenSigStartValue" SG_ 2553343732 EPT_PWCU_TEMP 40;
+BA_ "GenSigStartValue" SG_ 2553409268 EPT_BPSWU1_TEMP 40;
+BA_ "GenSigStartValue" SG_ 2553409268 EPT_BPSWU1_CURR 125;
+BA_ "GenSigStartValue" SG_ 2552491764 EPT_OBC_TEMP 40;
+BA_ "GenSigStartValue" SG_ 2552426228 EPT_BPOBU_TCELL_MIN 40;
+BA_ "GenSigStartValue" SG_ 2552426228 EPT_BPOBU_TCELL_MAX 40;
+BA_ "GenSigStartValue" SG_ 2552360692 EPT_BPOBU_SOC_DUP 25;
+BA_ "GenSigStartValue" SG_ 2552360692 EPT_BPOBU_RCAP 25;
+BA_ "GenSigStartValue" SG_ 2552360692 EPT_BPOBU_CURR 16000;
+
