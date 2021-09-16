@@ -111,7 +111,7 @@ BO_ 2550162676 EPT_to_SWCU_Enable_Control: 8 Vector__XXX
  SG_ EPT_HV_PROTECTED : 15|1@1+ (1,0) [0|0] "" Vector__XXX
  SG_ EPT_EW_STA : 7|1@1+ (1,0) [0|0] "" Vector__XXX
  SG_ EPT_BPSWU_SWAP_LVL : 40|8@1+ (0.5,0) [0|0] "%" Vector__XXX
- SG_ EPT_SWCU_IOUT_CMD : 24|16@1+ (0.1,0) [0|0] "A" Vector__XXX
+ SG_ EPT_SWCU_POUT_CMD : 24|16@1+ (0.001,0) [0|0] "kw" Vector__XXX
  SG_ EPT_SWCU_OUTPUT_MODE : 16|2@1+ (1,0) [0|0] "" Vector__XXX
  SG_ EPT_SWCU_PWR_STANDBY : 8|1@1+ (1,0) [0|0] "" Vector__XXX
  SG_ EPT_SWCU_CTRL_RC : 56|4@1+ (1,0) [0|0] "" Vector__XXX
@@ -133,7 +133,7 @@ BO_ 2555442276 SWCU_OP_Status_G1: 8 Vector__XXX
  SG_ SWCU_BPSWU_INSTALL_NUM : 5|3@1+ (1,0) [0|0] "" Vector__XXX
  SG_ SWCU_BPSWU_RSOC : 24|8@1+ (1,0) [0|0] "%" Vector__XXX
  SG_ SWCU_READY : 0|1@1+ (1,0) [0|0] "" Vector__XXX
- SG_ SWCU_BPSWU_IOUT_MAX : 32|8@1+ (1,0) [0|0] "A" Vector__XXX
+ SG_ SWCU_BPSWU_POUT_MAX : 32|8@1+ (0.1,0) [0|25.5] "kw" Vector__XXX
  SG_ SWCU_BPSWU_FCCAP : 8|16@1+ (1,0) [0|0] "Ah" Vector__XXX
  SG_ SWCU_AUX_PWR_VOLT : 40|8@1+ (1,0) [0|0] "" Vector__XXX
  SG_ SWCU_G1STA_RC : 56|4@1+ (1,0) [0|0] "" Vector__XXX
